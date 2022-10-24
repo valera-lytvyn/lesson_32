@@ -45,3 +45,4 @@ function createPage(index, arr) {
   weatherIcon = document.getElementById(`weatherIcon${index}`);
   weatherIcon.src = `http://openweathermap.org/img/wn/${iconCode}@2x.png`;
 }
+getDataWeather(arrCities);
